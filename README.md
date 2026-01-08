@@ -50,3 +50,29 @@ Connected to the public virtual machine using SSH via Azure Cloud Shell.
 ### Hostname Verification
 ```bash
 hostname
+## Screenshots
+
+### Resource Group & Networking Setup
+![Resource Group](screenshots/01-resource-group-project2.png)
+![Virtual Network Overview](screenshots/02-vnet-overview.png)
+![Public Subnet](screenshots/03-subnets-public.png)
+![Private Subnet](screenshots/03.1-subnets-private.png)
+
+---
+
+### Network Security Groups (NSGs)
+![Public NSG](screenshots/04-public-nsg.png)
+![Private NSG](screenshots/05-private-nsg.png)
+![Allow SSH Rule](screenshots/10-nsg-allow-ssh-permissions.png)
+
+---
+
+### Public Virtual Machine Deployment
+![Public VM Creation](screenshots/08-public-vm-creation.png)
+![Public VM Overview](screenshots/06-public-vm-overview.png)
+![Public VM Network Interface](screenshots/09-public-vm-network interface.png)
+
+---
+
+### SSH Access & Validation
+![SSH Connected & Validation Output](screenshots/07-ssh-connected-hostname-output-p-a-output-curl-ifconfig-output.png)
