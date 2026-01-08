@@ -77,3 +77,8 @@ This screenshot shows the public subnet where the public virtual machine is depl
 This screenshot shows the private subnet with no public internet access.
 
 ![Private Subnet](screenshots/03.1-subnets-private.png)
+---
+
+## Summary
+
+This project demonstrates my ability to design, secure, and validate Azure cloud networking components using industry best practices. I implemented subnet isolation, Network Security Groups, and secure SSH access, and verified network behavior through hands-on testing and documentation.
