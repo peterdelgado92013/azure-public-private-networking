@@ -105,84 +105,84 @@ I selected the virtual machine size and configured the administrator username an
 ### Step 3: Configure Networking for the Private VM
 I placed the virtual machine inside the **private subnet** to ensure it does not receive a public IP address.
 
-![Private VM Networking](screenshots/part2/03-private-vm-networking.png)
+![Step 3](screenshots/03-subnets-public.png)
 
 ---
 
 ### Step 4: Configure Management Settings
 I reviewed the management options and left default settings enabled without adding identity or automation features.
 
-![Private VM Management](screenshots/part2/04-private-vm-management.png)
+![Step 4 - Private VM Management](screenshots/part2/03-create-private-vm-management-settings.png)
 
 ---
 
 ### Step 5: Configure Monitoring Settings
 I reviewed monitoring settings and kept boot diagnostics disabled to keep the configuration minimal.
 
-![Private VM Monitoring](screenshots/part2/05-private-vm-monitoring.png)
+![Step 5 - Private VM Monitoring](screenshots/part2/04-create-private-vm-monitoring-settings.png)
 
 ---
 
 ### Step 6: Review Advanced Settings
 I reviewed the advanced settings and confirmed no extensions or custom data were added.
 
-![Private VM Advanced Settings](screenshots/part2/06-private-vm-advanced.png)
+![Step 6 - Private VM Advanced](screenshots/part2/05-create-private-vm-advanced-settings.png)
 
 ---
 
 ### Step 7: Add Resource Tags
 I added a project tag to help organize and identify this virtual machine.
 
-![Private VM Tags](screenshots/part2/07-private-vm-tags.png)
+![Step 7 - Private VM Tags](screenshots/part2/06-create-private-vm-tags.png)
 
 ---
 
 ### Step 8: Deploy the Private Virtual Machine
 I reviewed the configuration and started the virtual machine deployment.
 
-![Private VM Deployment In Progress](screenshots/part2/08-private-vm-deployment-in-progress.png)
+![Step 8 - Deployment In Progress](screenshots/part2/07-private-vm-deployment-in-progress.png)
 
 ---
 
 ### Step 9: Confirm Deployment Completion
 I confirmed that the deployment completed successfully and the private virtual machine was created.
 
-![Private VM Deployment Complete](screenshots/part2/09-private-vm-deployment-complete.png)
+![Step 9 - Deployment Complete](screenshots/part2/08-private-vm-deployment-complete.png)
 
 ---
 
 ### Step 10: Verify Private VM Overview
 I verified that the private virtual machine is running and does **not** have a public IP address assigned.
 
-![Private VM Overview](screenshots/part2/10-private-vm-overview.png)
+![Step 10 - Private VM Overview](screenshots/part2/09-private-vm-overview-running.png)
 
 ---
 
 ### Step 11: Verify Private IP and Networking
 I confirmed the private IP address and verified that the VM is attached to the private subnet.
 
-![Private VM Private IP](screenshots/part2/11-private-vm-networking-private-ip.png)
+![Step 11 - Private VM Networking Private IP](screenshots/part2/10-private-vm-networking-private-ip.png)
 
 ---
 
 ### Step 12: Verify Public VM (Jump Host)
 I confirmed that the public virtual machine exists and will be used as a jump host to access the private VM.
 
-![Public VM Overview](screenshots/part2/12-public-vm-overview.png)
+![Step 12 - Public VM Overview](screenshots/part2/11-public-vm-overview.png)
 
 ---
 
 ### Step 13: SSH into the Public VM
 I successfully connected to the public VM using SSH to prepare for accessing the private VM internally.
 
-![Public VM SSH Connected](screenshots/part2/13-public-vm-ssh-connected.png)
+![Step 13 - Public VM SSH Connect](screenshots/part2/12-public-vm-ssh-connect-azure-cli-output.png)
 
 ---
 
 ### Step 14: Validate Private VM Network Access
 I verified network connectivity from inside the virtual machines using command-line tools.
 
-![Network Validation](screenshots/part2/14-ifconfig-output.png)
+![Step 14 - Public VM SSH Session](screenshots/part2/13-public-vm-ssh-session-ip-config.png)
 
 ---
 
