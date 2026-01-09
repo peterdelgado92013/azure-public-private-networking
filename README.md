@@ -175,7 +175,7 @@ I confirmed that the public virtual machine exists and will be used as a jump ho
 ### Step 13: SSH into the Public VM
 I successfully connected to the public VM using SSH to prepare for accessing the private VM internally.
 
-![Step 13 - Public VM SSH Connect](screenshots/part2/12-public-vm-ssh-connect-azure-cli-output.png)
+![Step 13 - Public VM SSH Connect](screenshots/part2/13-public-vm-ssh-session-ip-config.png)
 
 ---
 
@@ -185,10 +185,6 @@ I verified network connectivity from inside the virtual machines using command-l
 ![Step 14 - Public VM SSH Session](screenshots/part2/13-public-vm-ssh-session-ip-config.png)
 
 ---
-
-### Summary
-This project demonstrates how to securely deploy a **private virtual machine** in Azure, restrict direct internet access, and validate access through a **public jump host**, following real-world cloud networking practices.
-
 
 ## Summary
 
